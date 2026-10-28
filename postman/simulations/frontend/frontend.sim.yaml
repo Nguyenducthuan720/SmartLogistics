@@ -1,0 +1,6 @@
+simulation: smartlogistics-frontend
+routing: path
+mocks:
+  - name: SmartLogistics backend
+    routeKey: backend
+    path: postman/mocks/smartlogistics-ui

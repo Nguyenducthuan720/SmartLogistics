@@ -1,0 +1,11 @@
+version: 1
+id: 6b861e6c-7841-4fa4-8d21-ff15314bf242
+name: smartlogistics-ui
+slug: smartlogistics-ui
+protocol: http
+port: 4901
+interceptRequests: true
+scenarios:
+  - name: default
+    path: ./handler.js
+    default: true
